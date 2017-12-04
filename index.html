@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ARoS Museum</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="description" content="Moderne Kunst, Dansk Kultur, Panorama Rainbow">
+</head>
+<body>
+
+    <div id="header">
+        <ul class="nav_bar">
+            <li><a href="udstillinger.html" class=button>Alle udstillinger</a></li>
+            <li><a href="#koobbillet" class=button>Køb din billet</a></li>
+            <li><a href="information.html" class=button>Information</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+      <img src="images/forside" alt="ARoS Museum's Landing page" width="100%">
+
+    <h5><a id="udstillinger"></a></h5>
+        <img src="images/triennial.jpg" alt="ARoS Triennial" width="100%">
+        
+    <h5><a id="information"></a></h5>
+        <img src="images/anmeldelser.jpg" alt="Anmeldelser af ARoS besøgende" width="100%">
+        
+    </div>
+    
+    
+    <div class="billet">
+        <h2><a id="koobbillet"></a>Køb din billet her</h2>
+            <p><strong>Entré til ARoS for en voksen.</strong></p>
+            <p><em>Personer under 18 år har gratis adgang.</em></p>
+            <p><em>Billeten sendes direkte til dig som vedhæftet fil via e-mail. Billeten scannes ved indgang til museet - den kan scannes både fra print og mobiltelefonen.</em></p>
+            <p><em>Billeten er gyldrig i et år fra købstidspunktet. Billetten refunderes ikke.</em></p>
+    </div>
+    
+    <div class="form">
+        <form action="/action_page.php">
+            <label for="fornavn">Fornavn</label>
+            <input type="text" id="fornavn" name="fornavn" placeholder="Lars Larsen">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="lars@larsen.dk">
+            <label for="mobil">Mobil nummer</label>
+            <input type="text" id="mobil" name="mobil" placeholder="+45 00 00 00 00">
+            <label for="antal">Antal</label>
+            <input type="number" name="antal" min="1" max="5" placeholder="1"><input type="submit" value="Indsend">
+        </form>
+    </div> 
+
+    <img src="images/socialemedier.jpg" alt="Sociale Medier" width="100%">
+    
+    <footer class="footer">        
+        <ul>
+            <li>Kontakt</li>
+            <li>Information</li>
+            <li>Køb din billet</li>
+            <li>The Garden</li>
+            <li>Alle vores udstillinger</li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
